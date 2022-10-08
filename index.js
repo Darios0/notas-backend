@@ -25,3 +25,6 @@ app.get('/', function (req, res) {
 app.listen(app.get("port"))
 
 console.log("La direccion de acceso es:\nhttp://localhost:"+app.get("port"))
+
+// produccion vercel uso de app
+module.exports = app 
